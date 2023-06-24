@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	height:500px;
+	justify-content:center;
+	align-items:center;
+}
+
+#line{
+	background:black;
+	width:200px;
+	height:2px;
+	animation:rotate 0.5s infinite 1s;
+}
+
+@keyframes rotate{
+	0%{
+		transform:rotate(0deg);
+	}
+	25%{
+		transform:rotate(90deg);
+	}
+	50%{
+		transform:rotate(180deg);
+	}
+	75%{
+		transform:rotate(270deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
