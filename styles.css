@@ -7,10 +7,11 @@
 }
 
 #line{
+	position:absolute;
 	background:black;
 	width:200px;
 	height:2px;
-	animation:rotate 0.5s infinite 1s;
+	animation:rotate 0.5s ease-in infinite;
 }
 
 @keyframes rotate{
